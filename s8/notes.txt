@@ -1,0 +1,27 @@
+- selectors
+- comments
+- important
+- color
+- background
+- text transform
+- text-spacing
+- text shadow
+- box shadow
+- text direction 
+- font size
+font weight
+- google fonts
+font style
+border
+radius
+box size
+padding
+margin
+width
+height
+display : inline , block, inline-block, flex
+absolute relative
+overflow
+table
+opacity
+calc
