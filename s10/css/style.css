@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 600px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.my-5{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.w-30{
+    width: 30%;
+}
+.row, .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-center{
+    justify-content: center;
+}
+/* .flip{
+    transition: all 1s;
+    box-shadow: 0 0 5px black;
+}
+.flip:hover{
+    transform: rotateX(360deg);
+}
+.front img{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    height: 25rem;
+}
+.front, .back{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width:100%;
+    transition: all 2s;
+    backface-visibility: hidden;
+}
+.front{
+    z-index:5;
+    transform: rotateX(0deg);
+}
+.back{
+    transform: rotateX(180deg);
+}
+.card:hover .front{
+    transform: rotateX(180deg);
+}
+.card:hover .back{
+    transform: rotateX(0deg);
+}
+ */
+.element{
+    width:15%;
+    aspect-ratio: 1/1;
+    background-color: red;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: 1s;
+    /* animation-timing-function: ; */
+}
+
+@keyframes move {
+    /* from{ */
+        /* margin-left: 0; */
+        /* border-radius: 0;
+        background-color: red;
+    }
+    to{ */
+        /* margin-left: 100%; */
+        /* border-radius: 50%;
+        background-color: yellow;
+    } */
+     0%{
+        margin-left:0;
+        margin-top:0;
+        background-color: red;
+     }
+     25%{
+        
+        margin-left:25%;
+        margin-top:0;
+        background-color: aqua;
+     }
+     50%{
+        margin-left: 25%;
+        margin-top: 20%;
+        background-color: bisque;
+     }
+     75%{
+        margin-left: 0 ;
+        margin-top: 20%;
+        background-color: yellowgreen;
+     }
+     100%{
+        margin-top:0;
+        margin-left: 0;
+        background-color: red;
+     }
+}
