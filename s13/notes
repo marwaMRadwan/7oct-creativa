@@ -1,0 +1,10 @@
+
+
+data types ==> string , number , boolean (true / false) , undefined , null 
+
+
+-- operations ==> Mathematical operators ==> + - / * ** % ++ --
+                  comparison operators ==> > >= < <= == === != !==
+                  unary operator ==> typeof , instanceof (search)
+                  logical operator ==> && || !
+                  ternary operator ==> (condition) ? true : false
