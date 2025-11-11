@@ -2,9 +2,14 @@
 
 data types ==> string , number , boolean (true / false) , undefined , null 
 
+-- js is camel case , case sensitive 
+-- to join string ==> concatenate , template literal
 
 -- operations ==> Mathematical operators ==> + - / * ** % ++ --
                   comparison operators ==> > >= < <= == === != !==
                   unary operator ==> typeof , instanceof (search)
                   logical operator ==> && || !
                   ternary operator ==> (condition) ? true : false
+                  Assignment operators ==> search
+
+                  

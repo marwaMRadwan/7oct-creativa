@@ -101,3 +101,28 @@ var userAddress = "October"
 // var m = -10; // true
 
 // (m) ? console.log('correct') : console.log('wrong')
+
+
+// if condition
+
+// if(condition/s) logic
+// else logic
+
+
+var h = 100
+if(h == 20 && typeof h == "string") {
+    var res = "number = 20"
+    console.log(res)
+}
+else if(h == 40) console.log('number = 40') 
+else if(h == 60) console.log('number = 60') 
+else {
+    console.log('number not equal 20')
+} 
+
+
+// var score = prompt('enter your score') 
+// > 90 ==> Excellent 
+// > 80 ==> very good 
+// > 70 ==> good
+// < 60 ==> failed
