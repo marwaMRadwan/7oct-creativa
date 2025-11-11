@@ -1,0 +1,9 @@
+.navbar-brand img{
+    height: 2.5rem;
+}
+.nav-link.active{
+    color: red !important;;
+}
+.carousel-item img{
+    height: 15rem;
+}
