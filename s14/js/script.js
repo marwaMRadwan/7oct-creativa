@@ -1,19 +1,19 @@
 
 var i = 10 // strict equality ===
 
-switch (i) {
-    case "10":
-    case 10 :    
-        console.log(10)
-        break
-    case 0:
-        console.log(0)
-        break
-    case 30:
-        console.log(30)
-        break
-    default: console.log('invalid number')
-}
+// switch (i) {
+//     case "10":
+//     case 10 :    
+//         console.log(10)
+//         break
+//     case 0:
+//         console.log(0)
+//         break
+//     case 30:
+//         console.log(30)
+//         break
+//     default: console.log('invalid number')
+// }
 
 
 // console.log(1)
@@ -90,12 +90,12 @@ switch (i) {
 // // var p = prompt()
 
 function sum(num , num2 = 100 , name = "Nouran"){
-    console.log(num2)
+    // console.log(num2)
     return num + num2
 }
 
-console.log(sum(10 , 50))
-console.log(sum(100 , 30))
+// console.log(sum(10 , 50))
+// console.log(sum(100 , 30))
 sum()
 
 // function getName(firstName = "Nouran" , lastName = "Ahmed"){
@@ -122,3 +122,56 @@ sum()
 // looping(1 , 20 , 15 , 4)
 // looping(1 , 20)
 // looping(1)
+
+
+
+// function statment
+function getName(){
+    return "Nouran"
+}
+var n = getName()
+
+// function Expression
+
+var userName = function(){
+     return "Nouran"
+}
+// console.log(userName())
+
+// arrow function 
+var info = (num)=> num > 20
+
+
+// console.log(info(30))
+
+
+var fName = "Nouran"
+var lName = "Fayez"
+var age = 31
+var address = "Nasr city"
+
+var userInfo = ["Nouran" ,  "Fayez" , 31 , "Nasr city" , 
+    ["0100000" , "01200000000"] ]
+
+    
+    // console.log(userInfo[0])
+    
+    userInfo[5] = true
+    
+    console.log(userInfo.length)
+    userInfo[userInfo.length] = "Maadi"
+
+    //// Array Methods 
+    userInfo.push("Developer" , "cgvh" , 10)
+    userInfo.unshift(false)
+    userInfo.shift()
+    userInfo.shift()
+    userInfo.pop()
+    userInfo.pop()
+    console.log(userInfo.includes(31))
+    console.log(userInfo)
+
+    
+
+
+
