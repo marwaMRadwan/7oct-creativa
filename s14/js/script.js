@@ -117,3 +117,8 @@ sum()
 // console.log(fullName)
 
 
+// function looping(stratNum , endNum , BreakNum , ContNum)
+
+// looping(1 , 20 , 15 , 4)
+// looping(1 , 20)
+// looping(1)
