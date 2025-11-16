@@ -213,7 +213,7 @@ console.log(users)
 
 
 
-// newOfUsers ==> user Number
+// newOfUsers ==> number of users 
 
 // addUser ==> userName , id , balance
 // editUserBalanceByID ==> id , newBalance
