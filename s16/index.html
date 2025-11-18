@@ -21,11 +21,24 @@
     <h1 id="h1_id" class="border border-4">Lorem, ipsum dolor.</h1>
 
     <div class="container">
-        <div class="w-50">
+        <div class="d-flex flex-wrap">
+             <div class="w-50">
 
             <img src="images/1.jpg" id="img-id" class="img-fluid" alt="">
-            <button class="btn btn-primary"
-             onclick="changeImg()">Change Image</button>
+            <button class="btn btn-primary" onclick="changeImg()">Change Image</button>
+        </div>
+        <div id="div_id" class="w-50 p-3 border border-dark ms-2" 
+        onmouseenter="handleMouseEvent('mouseenter' , this)"
+         onmouseleave="handleMouseEvent('mouseleave' , this)">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi voluptatem neque? Blanditiis
+            velit quaerat autem quis voluptatibus animi minus.
+        </div>
+         <div id="div_id" class="w-50 p-3 border border-dark ms-2" 
+        onmouseenter="handleMouseEvent('mouseenter' , this)" 
+        onmouseleave="handleMouseEvent('mouseleave' , this , event)">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi voluptatem neque? Blanditiis
+            velit quaerat autem quis voluptatibus animi minus.
+        </div>
         </div>
     </div>
 

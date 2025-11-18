@@ -145,10 +145,14 @@ function changeImg(){
 
     (img.src.endsWith('2.jpg')) ? 
      img.src = "images/1.jpg" : img.src = "images/2.jpg"
+}
 
 
-
-
+function handleMouseEvent(flag , element , e = null){
+    console.log(element)
+    console.log(e)
+    element.classList.toggle('bg-info')
+    console.log(flag)
 }
 
 
