@@ -11,7 +11,7 @@ let obj = {
         return {
             homeAddress: "Nasr city",
             officeAddress: 'October',
-            testAddress : function(address){
+            testAddress: function (address) {
                 return address
             }
         }
@@ -24,7 +24,7 @@ let obj = {
 
 /// string Method
 
-let courses = "       html , css, bootstrap , Js , html        " 
+let courses = "       html , css, bootstrap , Js , html        "
 
 // console.log(courses[0])
 
@@ -71,26 +71,66 @@ let courses = "       html , css, bootstrap , Js , html        "
 
 let date = new Date()
 
-console.log(date)
+// console.log(date)
 
-console.log(date.getFullYear())
-console.log(date.getMonth())
+// console.log(date.getFullYear())
+// console.log(date.getMonth())
 
-var month= ["January","February","March","April","May","June","July",
-            "August","September","October","November","December"];
+var month = ["January", "February", "March", "April", "May", "June", "July",
+    "August", "September", "October", "November", "December"];
 
-    console.log(month[date.getMonth()])  
-    
-    console.log(date.getDate())
-    console.log(date.getDay())
-    console.log(date.getHours())
-    console.log(date.getMinutes())
-    console.log(date.getSeconds())
-    console.log(date.getMilliseconds())
+// console.log(month[date.getMonth()])  
 
-    console.log(date.toLocaleDateString("ar-EG" ,
-         {'weekday':'long' , 'month':'short'}))
-    
-     console.log(date.toLocaleDateString("en-US" ,
-         {'weekday':'long' , "month":'short' , 'year':'numeric'}))   
-             console.log(date.toLocaleDateString("en-US"))   
+// console.log(date.getDate())
+// console.log(date.getDay())
+// console.log(date.getHours())
+// console.log(date.getMinutes())
+// console.log(date.getSeconds())
+// console.log(date.getMilliseconds())
+
+// console.log(date.toLocaleDateString("ar-EG",
+//     { 'weekday': 'long', 'month': 'short' }))
+
+// console.log(date.toLocaleDateString("en-US",
+//     { 'weekday': 'long', "month": 'short', 'year': 'numeric' }))
+// console.log(date.toLocaleDateString("en-US"))   
+
+
+
+// DOM ==> document object model
+
+console.log()
+let h2Elements = document.getElementsByTagName('h2')
+h2Elements[1].innerText = "Javascript"
+
+let textClass = document.getElementsByClassName('text-class')
+
+textClass.innerText = "Javascript"
+textClass.firstName = "dfghj"
+
+for(let i = 0 ; i < textClass.length ; i++){
+    textClass[i].innerHTML = "<a href=''>HTml</a>"   
+}
+
+let h1 = document.getElementById('h1_id')
+console.log(h1)
+h1.textContent = "Javascript"
+
+// let h1Element = document.querySelector("h2 span.active")
+// let element = document.querySelector(".text-class")
+// let elements = document.querySelectorAll(".text-class")
+
+// console.log(elements)
+
+
+let h1Element = document.querySelector("#h1_id")
+
+// h1Element.style.color = "red"
+// h1Element.style.backgroundColor = "lightgray"
+// h1Element.style.padding = "5%"
+
+h1Element.classList.add("bg-light" , "text-primary" , 'p-2')
+h1Element.classList.remove('border')
+h1Element.classList.toggle('border')
+
+
