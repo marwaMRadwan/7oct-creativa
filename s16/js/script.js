@@ -107,6 +107,7 @@ let textClass = document.getElementsByClassName('text-class')
 
 textClass.innerText = "Javascript"
 textClass.firstName = "dfghj"
+console.log(textClass)
 
 for(let i = 0 ; i < textClass.length ; i++){
     textClass[i].innerHTML = "<a href=''>HTml</a>"   
@@ -132,5 +133,22 @@ let h1Element = document.querySelector("#h1_id")
 h1Element.classList.add("bg-light" , "text-primary" , 'p-2')
 h1Element.classList.remove('border')
 h1Element.classList.toggle('border')
+
+
+function changeImg(){
+
+    let img = document.getElementById('img-id');
+    // console.log(img.id)
+    // console.log(img.src)
+
+    // img.src = "images/2.jpg"
+
+    (img.src.endsWith('2.jpg')) ? 
+     img.src = "images/1.jpg" : img.src = "images/2.jpg"
+
+
+
+
+}
 
 
