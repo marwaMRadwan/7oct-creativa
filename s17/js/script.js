@@ -79,3 +79,10 @@ window.addEventListener('scroll' , ()=>{
     console.log('scrolling')
     console.log(document.documentElement.scrollTop)
 })
+
+
+let aboutSection = document.getElementById('aboutSection')
+
+function handleScrollToSection(){
+    aboutSection.scrollIntoView({behavior:'smooth'})
+}
